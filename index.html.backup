@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>QuanVerse AI Workshops | ChatGPT, Codex & Cybersecurity</title>
+
+  <meta
+    name="description"
+    content="Free QuanVerse AI workshops on ChatGPT Mastery, Codex Mastery, and AI Cybersecurity."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="grid-bg"></div>
+  <div class="red-alert"></div>
+  <div class="scanline"></div>
+  <div class="ai-skull">◉_◉</div>
+
+  <header class="navbar">
+    <div class="brand">
+      <div class="brand-icon">QV</div>
+      <div>
+        <strong>QuanVerse</strong>
+        <span>AI Workshops</span>
+      </div>
+    </div>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav id="navLinks">
+      <a href="#workshops">Workshops</a>
+      <a href="#learn">Learn</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#who">Who</a>
+      <a href="#register" class="nav-btn">Register</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-left">
+        <p class="eyebrow">Free AI Workshops • July 10 & July 17</p>
+
+        <h1>
+          The Most Dangerous AI User Is Not a Hacker.
+          It Is the One Who Thinks ChatGPT Is Safe.
+        </h1>
+
+        <p class="hero-text">
+          Two high-impact QuanVerse workshops exposing how AI can save your time,
+          leak your data, write dangerous code, create phishing attacks, and turn
+          ordinary users into either powerful builders or easy targets.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#register" class="btn primary">Join Before AI Outsmarts You</a>
+          <a href="#workshops" class="btn ghost">See What You’re Missing</a>
+        </div>
+
+        <div class="trust-row">
+          <div>
+            <strong>10 July</strong>
+            <span>ChatGPT Mastery</span>
+          </div>
+          <div>
+            <strong>17 July</strong>
+            <span>Codex Mastery</span>
+          </div>
+          <div>
+            <strong>AI + Cyber</strong>
+            <span>Safe Future Skills</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="terminal-card">
+          <div class="terminal-top">
+            <span></span><span></span><span></span>
+            <p>threat-lab.sh</p>
+          </div>
+
+          <pre><code>$ scan ai_user_behavior
+
+[!] private data detected in prompt
+[!] API key exposure risk found
+[!] phishing content generation possible
+[✓] prompt shield required
+[✓] secure builder mindset loading
+
+next_mission: join_workshop()</code></pre>
+        </div>
+
+        <div class="floating-badge badge-1">Prompt Shield</div>
+        <div class="floating-badge badge-2">Data Leak Alert</div>
+        <div class="floating-badge badge-3">AI Builder Mode</div>
+      </div>
+    </section>
+
+    <section class="section warning">
+      <p class="eyebrow">Why These Workshops Matter</p>
+      <h2>Your next data leak may not come from a hacker. It may come from your own prompt.</h2>
+      <p>
+        People paste resumes, business ideas, private files, API keys, client data,
+        and company documents into AI tools every day. The scary part is not that
+        AI is powerful. The scary part is that most users have no idea what they are exposing.
+      </p>
+    </section>
+
+    <section class="section" id="workshops">
+      <div class="section-head">
+        <p class="eyebrow">Workshop Lineup</p>
+        <h2>Two workshops. One wake-up call.</h2>
+      </div>
+
+      <div class="workshop-grid">
+        <article class="workshop-card">
+          <div class="date-pill">10 July</div>
+          <h3>ChatGPT Mastery + AI Cybersecurity</h3>
+          <p>
+            Learn how to use ChatGPT for study, productivity, documents, career growth,
+            and safe AI usage without becoming careless with your data.
+          </p>
+
+          <ul>
+            <li>Professional prompting framework</li>
+            <li>ChatGPT for assignments, research, and reports</li>
+            <li>PDF, notes, and document workflows</li>
+            <li>AI phishing and social engineering awareness</li>
+            <li>Prompt injection and data leakage basics</li>
+          </ul>
+
+          <a href="#register" class="mini-link">Register for Workshop 1 →</a>
+        </article>
+
+        <article class="workshop-card danger-card">
+          <div class="date-pill red">17 July</div>
+          <h3>Codex Mastery + Secure AI Development</h3>
+          <p>
+            Learn how to build websites, apps, tools, and dashboards with Codex while
+            avoiding unsafe code, leaked secrets, and beginner security mistakes.
+          </p>
+
+          <ul>
+            <li>Build a website live with AI</li>
+            <li>Generate, debug, and improve code</li>
+            <li>Create simple AI-powered tools</li>
+            <li>Protect API keys, secrets, and tokens</li>
+            <li>Understand SQL injection, XSS, and unsafe code</li>
+          </ul>
+
+          <a href="#register" class="mini-link">Register for Workshop 2 →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section dark-panel" id="learn">
+      <div class="section-head">
+        <p class="eyebrow">What You Will Learn</p>
+        <h2>Skills that separate smart AI users from careless AI victims.</h2>
+      </div>
+
+      <div class="skill-grid">
+        <div class="skill-card">
+          <span>01</span>
+          <h3>Prompt Like a Pro</h3>
+          <p>Learn role, task, context, constraints, and output formatting.</p>
+        </div>
+
+        <div class="skill-card">
+          <span>02</span>
+          <h3>Use AI for Study</h3>
+          <p>Turn notes, PDFs, lectures, and assignments into structured learning support.</p>
+        </div>
+
+        <div class="skill-card">
+          <span>03</span>
+          <h3>Build With Codex</h3>
+          <p>Move from idea to website, app, dashboard, or automation faster.</p>
+        </div>
+
+        <div class="skill-card">
+          <span>04</span>
+          <h3>Think Like a Defender</h3>
+          <p>Understand data leakage, phishing, prompt injection, and insecure code.</p>
+        </div>
+
+        <div class="skill-card">
+          <span>05</span>
+          <h3>Create Real Projects</h3>
+          <p>See how AI can support portfolio projects, business tools, and career growth.</p>
+        </div>
+
+        <div class="skill-card">
+          <span>06</span>
+          <h3>Stop Using AI Blindly</h3>
+          <p>Learn when AI helps, when it lies, when it leaks, and when it becomes dangerous.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section demo-section">
+      <div class="section-head">
+        <p class="eyebrow">Live Demo Highlights</p>
+        <h2>This is not a boring lecture. It is an AI cyber lab.</h2>
+      </div>
+
+      <div class="demo-grid">
+        <div class="demo-box">ChatGPT study assistant demo</div>
+        <div class="demo-box">Resume and interview assistant demo</div>
+        <div class="demo-box">Prompt injection example</div>
+        <div class="demo-box">AI phishing email analysis</div>
+        <div class="demo-box">Codex website building demo</div>
+        <div class="demo-box">Password strength checker demo</div>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="timeline">
+      <div class="section-head">
+        <p class="eyebrow">Journey Timeline</p>
+        <h2>From casual AI user to AI-aware digital defender.</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>Now</span>
+          <h3>Community Articles</h3>
+          <p>Learn why AI productivity and AI cybersecurity are now survival skills.</p>
+        </div>
+
+        <div class="timeline-item">
+          <span>10 July</span>
+          <h3>ChatGPT Workshop</h3>
+          <p>Discover what ChatGPT can do and what it can accidentally expose.</p>
+        </div>
+
+        <div class="timeline-item">
+          <span>17 July</span>
+          <h3>Codex Workshop</h3>
+          <p>Move from using AI to building real tools with safer habits.</p>
+        </div>
+
+        <div class="timeline-item">
+          <span>After</span>
+          <h3>Build Smarter. Prompt Safer.</h3>
+          <p>Learners leave with practical AI workflows, cyber awareness, and a stronger builder mindset.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="who">
+      <div class="section-head">
+        <p class="eyebrow">Who Should Attend</p>
+        <h2>If you use AI, this is already about you.</h2>
+      </div>
+
+      <div class="audience-grid">
+        <div>School students curious about AI</div>
+        <div>University students building career skills</div>
+        <div>Working professionals improving productivity</div>
+        <div>Freelancers and creators using AI tools</div>
+        <div>Beginner coders learning AI-assisted development</div>
+        <div>Business learners exploring automation</div>
+      </div>
+    </section>
+
+    <section class="section scary">
+      <h2>AI will not replace you. But someone using AI safely, faster, and smarter might.</h2>
+      <p>
+        The future belongs to people who can use AI without leaking secrets,
+        falling for AI scams, or building insecure tools by accident.
+      </p>
+    </section>
+
+    <section class="section register" id="register">
+      <div>
+        <p class="eyebrow">Register Now</p>
+        <h2>Join the QuanVerse AI Workshop Journey</h2>
+        <p>
+          Join ChatGPT Mastery on 10 July and Codex Mastery on 17 July.
+          Learn how AI can make you faster, smarter, more productive, and more secure.
+        </p>
+      </div>
+
+      <a href="mailto:your-email@example.com?subject=QuanVerse AI Workshops Registration" class="btn primary">
+        Register Interest
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 QuanVerse AI Workshops • Use AI Smarter • Build Faster • Stay Safer</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
