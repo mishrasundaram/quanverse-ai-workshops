@@ -641,3 +641,10 @@ footer {
     min-height: auto;
   }
 }
+
+/* Make second hero headline line smaller */
+.hero h1 span:nth-child(2) {
+  font-size: 0.68em;
+  color: var(--cyan);
+  letter-spacing: -0.04em;
+}
