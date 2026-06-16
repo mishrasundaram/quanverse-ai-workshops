@@ -593,3 +593,51 @@ footer {
     padding: 22px;
   }
 }
+
+/* 2-day workshop correction */
+.two-day-grid {
+  grid-template-columns: repeat(2, 1fr) !important;
+  align-items: stretch;
+}
+
+.day-card {
+  min-height: 520px;
+  display: flex;
+  flex-direction: column;
+}
+
+.day-card h3 {
+  font-size: 32px;
+  line-height: 1.05;
+}
+
+.day-agenda {
+  display: grid;
+  gap: 10px;
+  margin: 22px 0;
+}
+
+.day-agenda div {
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.035);
+  border: 1px solid rgba(0,229,255,0.12);
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.day-card strong {
+  margin-top: auto;
+  font-size: 18px;
+}
+
+@media (max-width: 900px) {
+  .two-day-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .day-card {
+    min-height: auto;
+  }
+}
